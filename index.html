@@ -1,0 +1,139 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+
+</html>
+
+<head>
+    <meta charset="utf-8">
+    <title>www.Google.Com</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+
+        #backgroundImage {
+            border: none;
+            height: 100%;
+            pointer-events: none;
+            position: fixed;
+            top: 0;
+            visibility: hidden;
+            width: 100%;
+        }
+
+        [show-background-image] #backgroundImage {
+            visibility: visible;
+        }
+
+        .myInput {
+            font-size: 33px;
+            background: none;
+            border: 2px solid gray;
+            border-radius: 12px;
+            padding: 11px 11px;
+            margin-bottom: -22px;
+
+        }
+
+        .btn {
+            font-size: 33px;
+            background: none;
+            border: 2px solid gray;
+            border-radius: 11px;
+            padding: 11px 11px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: blue;
+            background-color: white;
+        }
+
+        .file {
+            font-size: 33px;
+            background: none;
+            border-radius: 22px;
+            align-items: center;
+            justify-content: center;
+            margin: 300px auto;
+            margin-left: 450px;
+            margin-top: 20px;
+        }
+
+
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            margin-left: 122px;
+        }
+
+        .nav ul li {
+            padding: 0;
+        }
+
+        .nav ul a {
+            text-decoration: none;
+            font-size: 38px;
+            margin: 12px;
+            margin-left: 23px;
+            padding: 22px;
+        }
+
+        .profile {
+            margin-left: 551px;
+        }
+
+        #power {
+            margin-top: 150px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 520px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <div class="profile">
+                <li><a href="#">Profile</a><i class="fa-solid fa-users"></i></li>
+            </div>
+        </ul>
+    </div> -->
+
+    <img id="power" src="img/Screenshot (15).png" alt="Some Error">
+    <div class="file">
+        <form action="https://www.google.com/search" method="get">
+            <textarea jsname="yZiJbe" class="myInput" jsaction="paste:puy29d;blur:jI3wzf" id="XSqSsc" maxlength="2048"
+                name="q" rows="1" aria-autocomplete="list"
+                aria-describedby="sb_input_box_aria_description_-tkjZeKYEsnaxc8PpeOX6Ac_1" autocapitalize="off"
+                autocomplete="off" autocorrect="off" enterkeyhint="search" role="textbox" spellcheck="false"
+                tabindex="0" title="" value="" aria-label="Google Search"
+                data-ved="0ahUKEwji_c3m5OiBAxVJbfEDHaXxBX0Q39UDCBQ" placeholder="Google"></textarea>
+            <button class="btn" value="search" type="submit">Search</button>
+
+
+        </form>
+    </div>
+    <iframe id="backgroundImage"
+        src="chrome-untrusted://new-tab-page/custom_background_image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fproxy%2FFWOBAVfQYasxV3KURX1VVKem1yOC2iazWAb8csOmqCDwI1CCzAA1zCpnAxR-wL2rbfZNcRHbI5b-SZfLASmF7uhJnzrksBWougEGlkw_-4U%3Dw3840-h2160-p-k-no-nd-mv"></iframe>
+    <ntp-app></ntp-app>
+
+    <script type="module" src="new_tab_page.js"></script>
+    <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+    <link rel="stylesheet" href="chrome://theme/colors.css?sets=ui,chrome">
+    <link rel="stylesheet" href="shared_vars.css">
+
+</body>
+
+</html>
